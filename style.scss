@@ -2,7 +2,6 @@
 // @import "node_modules/bootstrap/scss/bootstrap";
 * {
     box-sizing: border-box;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 html,body{
     margin:0;
@@ -10,10 +9,11 @@ html,body{
     background-image: url(static/theatre.jpg);
     background-size: 100% 60%;
     background-repeat: no-repeat;
-    background-position: 0px 400px;
+    background-position: 0px 330px;
     background-color: #060e1d;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.sceneFermee{
+.scene_fermee{
     width:600px;
     height:400px;
     margin:auto;

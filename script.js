@@ -3,11 +3,9 @@ import $ from 'jquery';
 // import axios from 'axios';
 $('button').on('click', function () {
   $('#music')[0].play();
-  $('h1').fadeOut(2000);
-  $('button').fadeOut(2000);
-  $('.annonce').fadeOut(2000);
+  $('h1, button, .annonce').fadeOut(2000);
   setTimeout(function () {
-    $('.sceneFermee').css('background-color', 'transparent');
+    $('.scene_fermee').css('background-color', 'transparent');
     $('.rideau').css('display', 'block');
 
     $('.rideau').animate(
